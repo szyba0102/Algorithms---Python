@@ -1,3 +1,4 @@
+# computational complexity: O(nlogn)
 '''Najdluzszy podciąg rosnący
 ZLOZONOSC: O(nlogn)'''
 
@@ -40,8 +41,3 @@ def LIS(A):
                     T[r + 1][j] = T[r][j]
                 T[r+1][r+1] = A[i]
     return T[inx]
-#A = [[0,2],[0,1,3],[3,4,4],[5,4,3,6],[3,4,5,8],[9]]
-#A = [[3]]
-A = [3,4,2,3,7,6,5,6,8,5,9,4]
-#print(binary_search(A,0,5,7))
-print(LIS(A))
