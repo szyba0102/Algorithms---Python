@@ -94,18 +94,3 @@ def wypisz(p):
         print(p.val, end = " ")
         p = p.next
 
-T = [3,2,45,3,2,2,3,5,2,1]
-first = None
-second = None
-T2 = [70,34,5,3,23]
-for x in T:
-    first = create(first,x)
-wypisz(first)
-first = quicker_sort(first)
-print("l")
-#wypisz(first)
-#first = conect(first,second)
-#first, second = partition(first)
-wypisz(first)
-print()
-#wypisz(second)
