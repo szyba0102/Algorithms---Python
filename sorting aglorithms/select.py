@@ -20,6 +20,3 @@ def select(A, p, r, k):
     else:
         return select(A,q+1,r,k)
 
-if __name__ == '__main__':
-    A = [1, 5, 4, 6, 2, 8, 7, 2, 3, 5, 16, 2, 5, 2, 1, 4, 3, 2, 14, 3, 6]
-    print(select(A, 0, 20, 9))
